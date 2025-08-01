@@ -1,9 +1,154 @@
 .fundo-cor1 {
-  background-color:rgb(252, 144, 2)
+  background-color:#fc9002
+}
+.fundo-cor11 {
+  background-color:#25374c;
 }
 .fundo-cor2 {
-  background-color:rgb(134, 133, 130)
+  background-color:#ebd9c7
+  
 }
 .fundo-cor3 {
 text-decoration-color: black;
+}
+.fundo-cor4 {
+  font-size: 2.5em;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.fundo-cor5 {
+ font-size: 0.75rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.fundo-cor6 {
+ background-color:#25374c;
+}
+.fundo-cor7 {
+font-weight: 800;
+ font-size: 40px;
+}
+.fundo-cor8 {
+ font-size: 18px;
+}
+.fundo-cor9 {
+  font-weight: 500;
+ font-size: 18px;
+}
+.tamanhotela {
+  background-color:#ebd9c7;
+  gap: 4rem;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  border: 2px solid #fc9002;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #884f04;
+}
+
+@media (min-width: 1024px) {
+  .tamanhotela {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.tamanhotela2 {
+  background-color:#25374c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+   max-width: none;
+  width: 100%; 
+  height:80px;
+  border: 2px solid #aca196;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #884f04;
+}
+
+.tamanhotela3 {
+  background-color:#e0d7d2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  border: 2px solid #fc9002;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #884f04;
+}
+
+@media (min-width: 640px) {
+.tamanhotela3 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tamanhotela3 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.tamanhotela4 {
+  background-color:#e0d7d2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  border: 2px solid #fc9002;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #884f04;
+}
+
+@media (min-width: 1024px) {
+  .tamanhotela4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.tamanhotela5 {
+  background-color:#25374c;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  border: 2px solid #fc9002;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #884f04;
+}
+
+@media (min-width: 1024px) {
+  .tamanhotela5 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
